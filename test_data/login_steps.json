@@ -1,0 +1,29 @@
+[
+    {
+        "keyword":"OPEN_URL"   
+    },
+
+    {
+        "keyword":"ENTER_TEXT",
+        "locator": "input[name='username']",
+        "data": "username"
+    },
+
+    {
+        "keyword":"ENTER_TEXT",
+        "locator": "input[name='password']",
+        "data": "password"
+    },
+
+    {
+        "keyword":"CLICK",
+        "locator": "button:has-text('Login')"
+    },
+
+    {
+        "keyword":"VERIFY_URL",
+        "expected_url":"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+    }
+
+]
+
