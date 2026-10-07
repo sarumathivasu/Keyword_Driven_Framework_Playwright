@@ -16,6 +16,7 @@ def select_option(page,locator,value):
 
 
 def verify_url(page, expected_url):
+    page.wait_for_url("**/dashboard/index", timeout=10000)
     print("Actual URL:", page.url)
     print("Expected URL:", expected_url)
 
